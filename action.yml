@@ -1,0 +1,16 @@
+name: 'action-check-alive'
+description: 'Efetuar a checagem da rota de alive na aplicação.'
+inputs:
+  github-token:
+    description: 'Token'
+    required: true
+  path-file: 
+    description: 'Caminho completo do arquivo aonde contém a rota alive.'
+    required: true
+  branch:
+    description: 'Branch de execução.'
+outputs:
+  result: 'Mensagem de sucesso'
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
