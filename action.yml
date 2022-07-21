@@ -10,7 +10,8 @@ inputs:
   branch:
     description: 'Branch de execução.'
 outputs:
-  result: 'Mensagem de sucesso'
+  result: 
+    description: 'Mensagem de sucesso'
 runs:
   using: 'node16'
   main: 'dist/index.js'
