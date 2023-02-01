@@ -4,10 +4,10 @@ metadata:
   name: action-check-alive
   annotations:
     github.com/project-slug: madeiramadeirabr/action-check-alive
+    backstage.io/techdocs-ref: dir:.
   tags:
-    - poc
 spec:
-  type: service
-  lifecycle: production
+  type: library
+  lifecycle: experimental
   owner: squad-sre-admin
   
